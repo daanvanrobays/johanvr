@@ -1,0 +1,260 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<div id="myCarousel" class="carousel slide hidden-sm hidden-xs">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="" />
+            <div class="fill" style="background-image: url('../../Images/CarouselHeaders/De autopsie van het hart_ Enrique Simonet_1890.jpg'); "></div>
+            <div class="carousel-caption">
+                <h1 class="blackoutline">Patholoog</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image: url('../../Images/CarouselHeaders/Andreas flap volledig.jpg'); "></div>
+            <div class="carousel-caption">
+                <h1 class="blackoutline">Auteur</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image: url('../../Images/CarouselHeaders/rariteitenkabinet01.jpg');"></div>
+            <div class="carousel-caption">
+                <h1 class="blackoutline">Curator</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image: url('../../Images/CarouselHeaders/JANTJES_2015_TVG_0371.jpg');"></div>
+            <div class="carousel-caption">
+                <h1 class="blackoutline">Hobbyist</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image: url('../../Images/CarouselHeaders/familie-xxlarge.JPG');"></div>
+            <div class="carousel-caption">
+                <h1 class="blackoutline">Pater Familias</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+<div class="section">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4">
+                <img class="img-rounded" style="width: 100%;" src="~/Images/HomePage/A.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 100%;" src="~/Images/HomePage/C.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 100%;" src="~/Images/HomePage/E.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 100%;" src="~/Images/HomePage/G.jpg" />
+            </div>
+
+            <div class="col-lg-4 col-md-4 text-center">
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/01biografie.jpg" />
+                    </a>
+                    <p class="homebold">Biografie</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/02stamboom.jpg" />
+                    </a>
+                    <p class="homebold">Stamboom</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/03huwelijkanjohan.jpg" />
+                    </a>
+                    <p class="homebold">Huwelijk An & Johan</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "PaterFamilias")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/04kinderen10.jpg" />
+                    </a>
+                    @Html.ActionLink("10 kinderen", "Index", "PaterFamilias")
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/05patholoog.jpg" />
+                    </a>
+                    <p class="homebold">Patholoog</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/06curator.jpg" />
+                    </a>
+                    <p class="homebold">Curator</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/09vesalius.jpg" />
+                    </a>
+                    <p class="homebold">Vesalius</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/10jaguar driver.jpg" />
+                    </a>
+                    <p class="homebold">Jaguar Drivers Club</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/11prins carnaval.jpg" />
+                    </a>
+                    <p class="homebold">Prins Carnaval Johan I</p>
+                </div>
+                <div>
+                    <a href="@Url.Action("Index", "Construction")">
+                        <img class="img-thumbnail" style="width: 75%;" src="~/Images/HomePage/12TVKranten.jpg" />
+                    </a>
+                    <p class="homebold">TV & kranten</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+                <img class="img-rounded" style="width: 105%;" src="~/Images/HomePage/B.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 105%;" src="~/Images/HomePage/D.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 105%;" src="~/Images/HomePage/F.jpg" />
+                <p></p>
+                <img class="img-rounded" style="width: 100%;" src="~/Images/HomePage/H.jpg" />
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.section -->
+@*<p>
+        Johan Van Robays zag het eerste levenslicht op 8 juni 1950 in Roeselare. Sterrenkundig is hij een tweeling. Na zijn middelbare studies Latijn Grieks & Wetenschappen aan het Klein Seminarie studeerde hij geneeskunde in Leuven.
+    </p>
+    <p>
+        Na het behalen van zijn doktersdiploma huwde hij An Blomme die hem 10 kinderen schonk waaronder 6 dochters en 4 zonen. Van 1975 tot 1979 specialiseerde hij zich in de anatomo-pathologie en werd in 1981 diensthoofd Pathologische Ontleedkunde in het Ziekenhuis Oost Limburg Genk (ZOL).
+    </p>
+    <p>
+        Naast patholoog en huisvader is hij een volbloed Bourgondiër. En nog een paar andere zaken.
+    </p>*@
+
+@*<div class="section-colored">
+
+        <div class="container">
+
+            <div class="row">
+                <h1>Auteur</h1>
+                <hr />
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img class="img-responsive" style="width: 93%;" src="~/Images/Auteur/Andreas cover  2D.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img class="img-responsive" style="width: 100%;" src="~/Images/Auteur/zolarium51.png" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h3>Boeken:</h3>
+                    <ul>
+                        <li>Andreas</li>
+                        <li>Fritz de Foet(in voorbereiding)</li>
+                    </ul>
+                    <br />
+                    <h3>Artikels:</h3>
+                    <h4>Artsenkrant</h4>
+                    <ul>
+                        <li>Ambroise Paré</li>
+                        <li>Anatomisch PanOpticum</li>
+                        <li>Levend Labo</li>
+                        <li>Vesalius</li>
+                    </ul>
+                    <h4>ZOLarium</h4>
+                    <ul>
+                        <li>Dissectiekamer</li>
+                        <li>Eponiemen kabinet</li>
+                    </ul>
+                    <br />
+                    <a href="@Url.Action("Index", "Auteur")" class="btn btn-primary">Bekijk Auteur<i class="fa fa-angle-right"></i></a>
+
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section -->
+
+    <div class="section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h1>Rariteitenkabinet</h1>
+                    <hr />
+                    <h4>Chirurgische operatiestukken:</h4>
+                    <ul>
+                        <li>Een overzicht van 35 jaar pathologie</li>
+                        <li>
+                            goedaardige & kwaadaardige tumoren:
+                            borstklierkanker, longkanker, levermetastase,
+                            darmpoliep, darmkanker, ziekte
+                            van Crohn, galblaasstenen, divertikels …
+                        </li>
+                    </ul>
+                    <h4>Rariteiten:</h4>
+                    <ul></ul>
+                    <ul>
+                        <li>
+                            monstergezwel, zeemeermin, cycloop,
+                            hersenloze foetus, buitenbaarmoederlijkeenschijnzwangerschap.
+                        </li>
+                    </ul>
+                    <h4>
+                        Afspraak:
+                    </h4>
+                    <ul>
+                        <li>Alle dagen mogelijk mits afspraak</li>
+                        <li>groepen van 10 tot<strong> maximum </strong> 25 personen</li>
+                        <li>professionele uitleg + volledig gratis(een flesje wijn wordt niet afgeslaan natuurlijk).</li>
+                    </ul>
+                    <h4>
+                        Adres:
+                    </h4>
+                    <ul>
+                        <li>Johan Van Robays: 0472/32.90.02</li>
+                        <li><a href="mailto:johan.vanrobays@zol.be?SUBJECT=Rariteitenkabinet">johan.vanrobays@zol.be</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img class="img-responsive thumbnail" src="~/Images/Curator/rariteitenkabinet01.jpg">
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.section-colored -->*@
