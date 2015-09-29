@@ -162,9 +162,12 @@
     <Compile Include="Controllers\AuteurController.cs" />
     <Compile Include="Controllers\ConstructionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HuwelijkController.cs" />
     <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PaterFamiliasController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
+    <Compile Include="Controllers\StamboomController.cs" />
+    <Compile Include="Controllers\VesaliusController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -221,6 +224,10 @@
     <Content Include="Images\HomePage\D.jpg" />
     <Content Include="Images\HomePage\E.jpg" />
     <Content Include="Images\HomePage\F.jpg" />
+    <Content Include="Images\Huwelijk\trouwfoto an johan1.jpg" />
+    <Content Include="Images\Huwelijk\trouwfoto an johan2.jpg" />
+    <Content Include="Images\Huwelijk\trouwfoto an johan3.jpg" />
+    <Content Include="Images\Stamboom\Home_NBanner.gif" />
     <Content Include="Images\Pater Familias\Flair 10 VR copy.jpg" />
     <Content Include="Images\HomePage\03huwelijkanjohan.jpg" />
     <Content Include="Images\HomePage\12TVKranten.jpg" />
@@ -279,6 +286,9 @@
     <Content Include="Views\Storage.cshtml" />
     <Content Include="Views\PaterFamilias\Index.cshtml" />
     <Content Include="Views\Construction\Index.cshtml" />
+    <Content Include="Views\Stamboom\Index.cshtml" />
+    <Content Include="Views\Huwelijk\Index.cshtml" />
+    <Content Include="Views\Vesalius\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
