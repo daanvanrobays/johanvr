@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Prins carnaval Johan I";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Prins carnaval Johan I
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li class="active">Carnaval</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <a href="@Url.Action("FotosessieThuis","Carnaval")">
+                <img src="~/Images/Carnaval/Carnaval fotosessie thuis.jpg" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <h3>Fotosessie thuis</h3>
+            <a href="@Url.Action("FotosessieThuis", "Carnaval")" class="btn btn-primary">Bekijk album <i class="fa fa-angle-right"></i></a>
+        </div>
+        <div class="col-md-3">
+            <a href="@Url.Action("Carnavalstoet", "Carnaval")">
+                <img src="~/Images/Carnaval/Carnavalstoet 2015.jpg" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <h3>Carnavalstoet</h3>
+            <a href="@Url.Action("Carnavalstoet", "Carnaval")" class="btn btn-primary">Bekijk album <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a href="@Url.Action("Rusthuis", "Carnaval")">
+                <img src="~/Images/Carnaval/Carnaval rusthuizen.jpg" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <h3>Rusthuis bezoek</h3>
+            <a href="@Url.Action("Rusthuis", "Carnaval")" class="btn btn-primary">Bekijk album <i class="fa fa-angle-right"></i></a>
+        </div>
+        <div class="col-md-3">
+            <a href="@Url.Action("Carnavalsbal", "Carnaval")">
+                <img src="~/Images/Carnaval/Carnaval bal 2015.jpg" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <h3>Carnavalsbal</h3>
+            <a href="@Url.Action("Carnavalsbal", "Carnaval")" class="btn btn-primary">Bekijk album <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>   
+</div>
