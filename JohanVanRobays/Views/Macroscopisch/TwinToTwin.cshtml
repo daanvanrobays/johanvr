@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "TwinToTwin";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                TwinToTwin
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Macroscopisch Oog", "Index", "Macroscopisch")
+                </li>
+                <li class="active">TwinToTwin</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>TwinToTwin</h2>
+            <hr />
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/Macroscopisch/twinTotwin1.png" class="img-responsive" />
+            <p></p>
+            <img src="~/Images/Macroscopisch/TwinToTwin2.png" class="img-responsive" />
+        </div>
+        <div class="col-md-9">
+            <p>
+                In de vliezen van deze tweelingplacenta wordt een dode, gemummificeerde foetus gevonden. Een foetus papyraceus. Via een verstorven stuk navelstreng is hij verbonden met een levenloos stuk moederkoek. Macroscopisch is dit gedeelte hard en wit. Microscopisch is het volledig geïnfarcteerd. Het overige deel van de placenta komt goed doorbloed en normaal voor. De andere navelstreng staat volkomen perifeer ingeplant en bevat drie bloedvaten. Het tweede lid van deze eeneiige tweeling werd op 38 weken geboren. Het is een gezonde jongen van 2835 gram.             </p>
+            <h3>
+                Kliniek
+            </h3>
+            <p>
+                Een vrouw van 22 jaar is voor de tweede maal zwanger. Dit keer van een tweeling. Op een eerste echo ziet de gynaecoloog een ongelijke groei tussen de twee foetussen. Bij nader echografisch onderzoek vindt hij anastomosen tussen de twee voedende vaatnetwerken. De foetus met groeiachterstand pompt slagaderlijk bloed in de venen van de grotere foetus die alsmaar groter en dikker wordt.  Bij de donor (transfuseur in het Frans) ontstaat een daling van het bloedvolume, waardoor hij minder plast in zijn compartiment en een tekort aan vruchtwater ontstaat (oligohydramnion). Daardoor zit het vlies van zijn vruchtzak strak om hem heen en is het op de echo nauwelijks te zien. De gynaecologen spreken van een "stuck" twin. Het omgekeerde gebeurt bij de receptor (transfusé’). Hij plast overvloedig en baadt als het ware in zijn vruchtwatercompartiment. Dit polyhydramnion is de oorzaak van het meest zichtbare symptoom van een twin-to-twin transfusie syndroom (TTTTS), namelijk het snel en overmatig toenemen van het buikvolume bij de zwangere vrouw.            </p>
+            <h3>
+                Licht geval van transfuseur-transfusé
+            </h3>
+            <p>
+                Na het stellen van de diagnose zijn er, afhankelijk van de ernst van de anastomosen en de ongelijke groei, een aantal behandelingsmogelijkheden. Ofwel wacht men af en volgt de zwangerschap goed op. De prognose is echter gereserveerd. Ofwel doet men intrauteriene (foetale) chirurgie. Men kan het vlies tussen de kleine en de grote vruchtzak doorprikken zodat er twee communicerende vaten (zakken) ontstaan. Met een laser kan men de anastomosen tussen de twee voedende vaatnetwerken proberen te coaguleren. Of als de anaemische vrucht al over the point-of-no-return is, hem een dodelijke injectie KCL geven. Dit laatste is hier gebeurd op de leeftijd van 17 weken. Nadien mummificeert de dode vrucht tot een foetus papyraceus.            
+            </p>
+            <br />
+            <h3>
+                Nabeschouwingen:
+            </h3>
+            <p>
+                Het proces van mummificatie is een zoveelste wonder van de natuur. De kleine foetus necroseert niet en verettert niet, wat een hevige ontstekingsreactie bij de moeder zou uitlokken. Hij droogt uit en schrompelt tot een perkamenten hoopje. Een kleine mummie. Daarop doet de zwangere vrouw geen reactie.            
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">Lees meer</h3>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Slokdarm", "Slokdarm", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Slokdarm", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/Slokdarm1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Cycloop", "Cycloop", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Cycloop", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/cycloop1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Melanosis coli", "MelanosisColi", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("MelanosisColi", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/MelanosisColi1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+    </div>
+</div>

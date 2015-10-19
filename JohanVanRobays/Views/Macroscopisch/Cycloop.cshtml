@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Cycloop";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Cycloop
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Macroscopisch Oog", "Index", "Macroscopisch")
+                </li>
+                <li class="active">Cycloop</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Cycloop</h2>
+            <hr />
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/Macroscopisch/cycloop1.png" class="img-responsive" />
+            <p></p>
+            <img src="~/Images/Macroscopisch/cycloop2.png" class="img-responsive" />
+            <p>Holoprosencefalie</p>
+            <img src="~/Images/Macroscopisch/cycloop3.png" class="img-responsive" />
+            <p>Veratrum californicum</p>
+        </div>
+        <div class="col-md-9">
+            <p>
+                Niet enkel in de mythologie bestaan cyclopen maar ook in het echt. Zowel bij dieren als bij mensen. In de Amerikaanse staat Idaho werden rond 1955 meerdere lammetjes geboren met slechts één oog. Er waren nog andere misvormingen in het aangezicht en de hersenen waren onvolledig ontwikkeld. Elf jaar lang werd gezocht naar de oorzaak van deze eigenaardige aandoening tot Lynn James de schuldige vond. Hij deed geen laboratoriumonderzoek maar ging ter plaatse in het veld kijken. Drie zomers lang ging hij tussen de schapen leven en ontdekte tenslotte dat de ‘maïs lelie’ (Veratrum californicum) de boosdoener was. Deze hoge en rechte plant draagt witte bloemen en gelijkt qua vorm op een maisplant. De bloemen bevatten een gif dat om de voor de hand liggende reden cyclopamine genoemd werd. Als het moederschaap rond de veertiende dag van de zwangerschap die plant naar binnen speelde, ontstond cyclopie bij het lam. Het moederschaap zelf bleef gezond.
+            </p>
+            <p>
+                Hoe  cyclopamine inwerkt op de ontwikkeling van de foetus en het ontstaan van geboortedefecten bleef weer een andere 30 jaar onbekend. Pas na het ontrafelen van de genetische code zag men dat cyclopamine de Sonic hedgehog signaalweg blokkeert. Deze signaalweg is een van de belangrijkste regulatoren in het zich ontwikkelende embryo. Als een gift een van de signalen blokkeert ontstaat er niets, ofwel iets verkeerds.
+            </p>
+            <p>
+                Een cycloop heeft één centrale oogkas met daarin één of twee oogbollen. Het enige oog wordt geflankeerd door vier oogleden die samen een soort ruitvormige opening maken. Een normale neus is niet aanwezig. Boven het oog komt een slurfje (proboscis) voor. De hersenen tonen veelal holoprosencefalie (ringhersenen). Er is geen verbinding tussen de hemisferen. Centraal is een grote, ongepaarde ventrikel aanwezig. Er is geen corpus callosum (hersenbalk), geen septum pellucidum en geen falx cerebri (groothersen sikkel). Ook de bulbus olfactorius (eerste hersenzenuw) is afwezig (arhinencephalie).
+            </p>
+            <p>
+                De oorzaak van holoprosencefalie/cyclopie kan een chromosomiale afwijking zijn (in het Sonic hedgehog gen), een moederlijke infectie met rubella of diverse teratogene stoffen.
+            </p>
+            <h3>
+                Medische toepassing
+            </h3>
+            <p>
+                Cyclopamine zou ook een rol spelen in het ontstaan van tumoren in de pancreas, de huid en de prostaat. Zo is de Sonic hedgehog signaalweg geactiveerd bij een basocellulair carcinoma huidtumor). Met een anti- hedgehog huidcrème zou men theoretisch een basocellulair carcinoma kunnen behandelen. Ook voor andere tumoren openen zich perspectieven.
+            </p>
+            <h3>
+                Nabeschouwing
+            </h3>
+            <p>
+                Zo ziet men maar. Een eigenaardig geboortedefect bij Idaho lammeren kan 60 jaar later leiden tot een nieuwe behandeling van kanker.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">Lees meer</h3>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Melanosis coli", "MelanosisColi", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("MelanosisColi", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/MelanosisColi1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Slokdarm", "Slokdarm", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Slokdarm", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/Slokdarm1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("TwinToTwin", "TwinToTwin", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("TwinToTwin", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/twinTotwin1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+    </div>
+</div>

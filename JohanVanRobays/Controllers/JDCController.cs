@@ -13,5 +13,21 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult JaguarMKVConvert()
+        {
+            return View();
+        }
+        public ActionResult KentSussexTour()
+        {
+            return View();
+        }
+        public ActionResult Saumur1995()
+        {
+            return View();
+        }
+        public ActionResult Schotland1993()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Slokdarm";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Slokdarm
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Macroscopisch Oog", "Index", "Macroscopisch")
+                </li>
+                <li class="active">Slokdarm</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Slokdarm</h2>
+            <hr />
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/Macroscopisch/Slokdarm1.png" class="img-responsive" />
+            <p></p>
+            <img src="~/Images/Macroscopisch/Slokdarm2.png" class="img-responsive" />
+            <p>
+                Slokdarmbiopt met afgeschilferd epitheel en polarisatie positief (oplichtend) vreemd materiaal.
+            </p>
+        </div>
+        <div class="col-md-9">
+            <p>
+                Het resectiestuk toont een slokdarm van een 15 jarige jongen. Tussen 0 en 2 cm, en tussen 9 en 11 cm is het bekledend epitheel macroscopisch normaal. Daartussen lijkt het volledig weggerschroeid.
+            </p>
+            <h3>
+                Het verhaal
+            </h3>
+            <p>
+                Op een morgen vindt een vader zijn zoon dood in bed. Niet onder de lakens maar er bovenop en nog volledig aangekleed. Er ligt een soort gelukzalige glimlach op zijn gezicht maar hij beweegt niet meer. Totaal van slag belt de vader de huisarts op. Die is onmiddellijk ter plaatse maar kan enkel de dood vaststellen. Op het overlijdensattest vermeldt hij een hartstilstand als doodsoorzaak. Omdat zijn zoon de dag voordien nog springlevend was kan de vader het amper geloven en vraagt een autopsie.
+            </p>
+            <p>
+                De patholoog doet een zeer grondige autopsie omdat hij het, gezien de jonge leeftijd en de omstandigheden, een verdacht overlijden vindt. Hij neemt maagvocht, darminhoud en urine voor toxicologisch onderzoek. Het maagvocht ruikt naar limoenen. Alle thoracale en abdominale organen komen macroscopisch normaal voor, behalve de slokdarm. Er is een circumferentiële abrasie van de binnenbekleding over een afstand van 7 cm. Tussen de necrotische epitheelresten toont de histologie een bruin gepigmenteerd materiaal dat polarisatie positief is. Dit moet van exogene aard zijn. Hetzelfde birefringente materiaal wordt ook gevonden in de maag- en de duodenumbiopsie. Hier worden echter geen necrotische letsels aangetroffen.
+            </p>
+            <h3>
+                Diagnose
+            </h3>
+            <p>
+                Na de autopsie bestond een sterk vermoeden dat de jongen moedwillig of accidenteel een caustisch product ingenomen had. Het toxicologisch onderzoek bevestigt het. Het product wijst in de richting van een schoonmaakmiddel in de zin van Mr. Proper, allesreiniger met citroengeur. De dood is dan vermoedelijk het gevolg van een sterke vasovagale reactie op de wel zeer fulminante slokdarmverbranding.
+            </p>
+            <br />
+            <h3>
+                Nabeschouwingen:
+            </h3>
+            <p>
+                Volgens de huisarts waren er de laatste tijd wat spanningen tussen de jongen en zijn ouders. Of de jongen het product ingenomen heeft in een poging  tot zelfmoord, of alleen maar om een daad van aandacht te stellen is niet bekend.
+            </p>
+            <p>
+                Indien op deze jongen geen autopsie was aangevraagd, dan was de ware doodsoorzaak nooit aan het licht gekomen. Overal in België zijn de autopsies in vrije val. In een groot ziekenhuis als het onze doen de pathologen er nog 3 à 4 per jaar. Omdat in haast alle gevallen de doodsoorzaak na de autopsie anders is dan ervoor, kloppen de statistieken daarover niet.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">Lees meer</h3>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Melanosis coli", "MelanosisColi", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("MelanosisColi", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/MelanosisColi1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("TwinToTwin", "TwinToTwin", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("TwinToTwin", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/twinTotwin1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Cycloop", "Cycloop", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Cycloop", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/cycloop1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+    </div>
+</div>

@@ -42,6 +42,24 @@ body {
     font-weight: bold;
 }
 
+.readmore {
+    height:15em;
+    width:22em;
+}
+.articles {
+    height:10em;
+    width:17em;
+}
+.sideimage {
+    height:37em;
+    width:25em;
+}
+
+.squares {
+    height:20em;
+    width:20em;
+}
+
 .sidebar {
     margin-top: 40px;
 }

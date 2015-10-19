@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Melanosis coli";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Macroscopische oog
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Macroscopisch Oog", "Index", "Macroscopisch")
+                </li>
+                <li class="active">Melanosis coli</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Zwart verkleurde dikdarm of Melanosis coli</h2>
+            <hr />
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/Macroscopisch/MelanosisColi1.png" class="img-responsive" />
+            <h3>
+                Microscopie
+            </h3>
+            <img src="~/Images/Macroscopisch/MelanosisColi2.png" class="img-responsive" />
+            <p>
+                Talrijke bruine macrofagen tussen de crypten.
+            </p>
+            <img src="~/Images/Macroscopisch/MelanosisColi3.png" class="img-responsive" />
+            <p>
+                Geen plaats tussen de tumorale crypten
+            </p>
+        </div>
+        <div class="col-md-9">
+            <p>
+                Dit is een overlangs ingesneden dikke darm met centraal een tumor van 5 cm diameter. De tumor bezit een normale vleeskleur maar de omgevende darmplooien zijn inktzwart. Een plaatselijk tekort aan bloedtoever met necrose (ischemie) is er niet. Daarvoor zijn de plooien te mooi gevormd en niet afgevlakt. De patiënte heeft ook geen Chinese inkt gedronken. Dan zou de tumor eveneens zwart kleuren.
+            </p>
+            <h3>
+                Kliniek
+            </h3>
+            <p>
+                Een 78-jarige vrouw consulteert voor obstipatie (verstopping) en bloedverlies bij de ontlasting. Voor de verstopping neemt ze al jaren laxeermiddelen van het type anthraquinonen. Een coloscopie toont een grote obstruerende tumor aan. Omdat haar hemoglobine laag staat, en ze getuige van Jehova is, wordt ijzer opgestart. Een jaar voordien was ze geopereerd voor een tumor van het baarmoederslijmvlies zonder uitzaaiingen in de lymfeklieren. Het huidig dikdarm gezwel stelt dus de differentiaal diagnose tussen een metastase van de vroegere baarmoederkanker of een primair darmcarcinoma. Op een biopsie uit de tumor stelt de patholoog de diagnose van een primaire colontumor. De patiënte gaat akkoord met de operatie maar niet met een eventuele postoperatieve bloedtransfusie.
+            </p>
+            <h3>
+                En dat zwart?
+            </h3>
+            <p>
+                Laxantia van het type anthraquinonen geven een donkerbruin pigment af dat door de macrofagen (opruimcellen) opgenomen wordt. Ook bepaalde kruidenpilletjes tegen verstopping zijn daarom bekend. De opruimmacrofagen liggen in het bindweefsel tussen de microscopisch kleine darmcrypten. Tussen normale crypten is er voldoende plaats voor duizenden macrofagen. Bij een darmkanker liggen de woekerende crypten bijna volledig tegen elkaar. Een tussenruimte is haast onbestaande. Vandaar dat de normale darmplooien zwart kleuren (veel macrofagen) en de tumor niet (weinig macrofagen).
+            </p>
+            <br />
+            <p>
+                De diagnose luidt: <strong>pseudomelanosis coli.</strong> Het ‘pseudo’ wijst erop dat het pigment geen melaninepigment is maar lipofuscine, een afbraakstof.
+            </p>
+            <h3>
+                Nabeschouwingen:
+            </h3>
+            <p>
+                Bij langdurige obstipatie consulteert men beter een huisarts dan jarenlang op eigen houtje laxeermiddelen of kruidenpilletjes tegen verstopping te nemen.
+            </p>
+            <p>
+                Een volledig klinisch en radiologisch onderzoek bij de eerste opname (voor de tumor van het baarmoederslijmvlies) had zeer waarschijnlijk de darmtumor, die al langer bestond, een jaar eerder kunnen aan het licht brengen. Nu zijn er spijtig genoeg uitzaaiingen in de lymfeklieren en in de lever.
+            </p>
+            <p>
+                Het samengaan van een endometriumcarcinoom en een coloncarcinoom moet altijd doen denken aan de mogelijkheid van een Lynch syndroom, het hereditaire non-polyposis colorectaal carcinoom (HNPCC). Dit is een erfelijke vorm van kanker.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">Lees meer</h3>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("TwinToTwin", "TwinToTwin", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("TwinToTwin", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/twinTotwin1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Slokdarm", "Slokdarm", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Slokdarm", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/Slokdarm1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h4>
+                @Html.ActionLink("Cycloop", "Cycloop", "Macroscopisch")
+            </h4>
+            <a href="@Url.Action("Cycloop", "Macroscopisch")">
+                <img src="~/Images/Macroscopisch/cycloop1.png" class="img-responsive img-customer readmore">
+            </a>
+        </div>
+    </div>
+</div>

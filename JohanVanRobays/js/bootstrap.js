@@ -63,6 +63,25 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
+(function ($) {
+    $(document).ready(function () {
+        $(function () {
+            var lastScrollTop = 0;
+            $(window).scroll(function (event) {
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop) {
+                    // downscroll code
+                    $('.navbar').fadeOut();
+                } else {
+                    // upscroll code
+                    $('.navbar').fadeIn();
+                }
+                lastScrollTop = st;
+            });
+        });
+
+    });
+}(jQuery));
 
 +function ($) {
   'use strict';
