@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Hobbyist";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Hobbyist
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li class="active">Hobbyist</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <a href="@Url.Action("Index","Muzikant")">
+                <img src="~/Images/Hobbyist/folkgroep1544.jpg" class="img-responsive"/>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <h3>Muzikant</h3>
+            <p>Johan Van Robays volgde vanaf zijn 8 jarige bestaan al muziekschool waar hij begon als violist. Op latere leeftijd ontdekte hij zijn liefde voor de orgel en piano.</p>
+            <p>Uit zijn ruim instrumentenkennis volgden een aantal bands zoals 1544, Sixty Six, ..</p>
+            <a href="@Url.Action("Index", "Muzikant")" class="btn btn-primary">
+                Bekijk Muzikant<i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-3">
+            <a href="@Url.Action("Index","Carnaval")">
+                <img src="~/Images/Carnaval/Carnaval bal 2015.jpg" class="img-responsive"/>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <h3>Prins Carnaval Johan I</h3>
+            <p>Johan Van Robays is gekroond tot Prins Carnaval Johan I in het jaar 2015 van de Vrolijke Jantjes</p>
+            <a href="@Url.Action("Index", "Carnaval")" class="btn btn-primary">
+                Bekijk Prins Johan I<i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
