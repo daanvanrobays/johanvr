@@ -13,5 +13,21 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult Vesalius()
+        {
+            return View();
+        }
+        public ActionResult Paré()
+        {
+            return View();
+        }
+        public ActionResult LevendLabo()
+        {
+            return View();
+        }
+        public ActionResult Panopticum()
+        {
+            return View();
+        }
     }
 }

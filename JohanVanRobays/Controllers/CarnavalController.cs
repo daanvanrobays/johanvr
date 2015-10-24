@@ -25,9 +25,5 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
-        public ActionResult Carnavalsbal()
-        {
-            return View();
-        }
     }
 }

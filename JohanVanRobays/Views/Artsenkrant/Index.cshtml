@@ -16,15 +16,40 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <h3>Artikels</h3>
             <p>
                 Johan schreef 32 artikels over Andreas Vesalius en 32 over Ambroise Paré, de hofarts van 4 Franse koningen. Daarna 20 artikels getiteld ‘Levend Labo’ waarin laboproeven beschreven werden met levend menselijk of dierlijk materiaal. Eind 2015 rondt hij een 32-delig Panopticum af over de geschiedenis van de anatomische illustratie. In 2016 start in Artsenkrant een 32-delige reeks over hedendaagse artiesten die zich in hun werk laten inspireren door de menselijke anatomie.
             </p>
         </div>
-        <div class="col-md-4">
-            <img src="~/Images/HomePage/H.jpg" class="img-responsive" />
-        </div>
     </div>
     <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <a href="@Url.Action("Vesalius", "Artsenkrant")"><h3>Vesalius</h3></a>
+            <a href="@Url.Action("Vesalius", "Artsenkrant")">
+                <img data-original="/Images/Artsenkrant/AK Vesalius hoofd/0001.jpg" class="img-responsive lazy" width="800" height="1200" />
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("Paré", "Artsenkrant")"><h3>Paré</h3></a>
+            <a href="@Url.Action("Paré", "Artsenkrant")">
+                <img data-original="/Images/Artsenkrant/AK Paré eenhoorn/0001.jpg" class="img-responsive lazy" width="800" height="1200" />
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="@Url.Action("LevendLabo", "Artsenkrant")"><h3>Levend Labo</h3></a>
+            <a href="@Url.Action("LevendLabo", "Artsenkrant")">
+                <img data-original="/Images/Artsenkrant/AK Levend Labo extremo/0001.jpg" class="img-responsive lazy" width="800" height="1200" />
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("Panopticum", "Artsenkrant")"><h3>Panopticum</h3></a>
+            <a href="@Url.Action("Panopticum", "Artsenkrant")">
+                <img data-original="/Images/Artsenkrant/AK Panopticum/0001.jpg" class="img-responsive lazy" width="800" height="1200" />
+            </a>
+        </div>
+    </div>
 </div>

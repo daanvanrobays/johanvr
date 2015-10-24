@@ -13,5 +13,21 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult ConradRontgen()
+        {
+            return View();
+        }
+        public ActionResult RudolfVirchow()
+        {
+            return View();
+        }
+        public ActionResult KurtSemm()
+        {
+            return View();
+        }
+        public ActionResult  JohnHarveyKellog()
+        {
+            return View();
+        }
     }
 }

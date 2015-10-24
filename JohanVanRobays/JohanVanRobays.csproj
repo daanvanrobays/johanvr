@@ -196,6 +196,12 @@
     <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Artsenkrant\AK Levend Labo extremo\0001.jpg" />
+    <Content Include="Images\Artsenkrant\AK Levend Labo extremo\0002.jpg" />
+    <Content Include="Images\Artsenkrant\AK Panopticum\0001.jpg" />
+    <Content Include="Images\Artsenkrant\AK Paré eenhoorn\0001.jpg" />
+    <Content Include="Images\Artsenkrant\AK Paré eenhoorn\0002.jpg" />
+    <Content Include="Images\Artsenkrant\AK Vesalius hoofd\0001.jpg" />
     <Content Include="Images\Auteur\Andreas cover 3D.jpg" />
     <Content Include="Images\Carnaval\Rusthuis\DSC_0022.JPG" />
     <Content Include="Images\Carnaval\Rusthuis\DSC_0023.JPG" />
@@ -440,6 +446,22 @@
     <Content Include="Images\Patholoog\snijtafel.jpg" />
     <Content Include="Images\CarouselHeaders\rariteitenkabinet01.jpg" />
     <Content Include="Images\Auteur\zolarium51.png" />
+    <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0001.jpg" />
+    <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0002.jpg" />
+    <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0003.jpg" />
+    <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0004.jpg" />
+    <Content Include="Images\ZOLarium\e24 Rudolf Virchow\0001.jpg" />
+    <Content Include="Images\ZOLarium\e24 Rudolf Virchow\0002.jpg" />
+    <Content Include="Images\ZOLarium\e24 Rudolf Virchow\0003.jpg" />
+    <Content Include="Images\ZOLarium\e24 Rudolf Virchow\0004.jpg" />
+    <Content Include="Images\ZOLarium\e45 Kurt Semm\0001.jpg" />
+    <Content Include="Images\ZOLarium\e45 Kurt Semm\0002.jpg" />
+    <Content Include="Images\ZOLarium\e45 Kurt Semm\0003.jpg" />
+    <Content Include="Images\ZOLarium\e45 Kurt Semm\0004.jpg" />
+    <Content Include="Images\ZOLarium\e48 John Harvey Kellog\0001.jpg" />
+    <Content Include="Images\ZOLarium\e48 John Harvey Kellog\0002.jpg" />
+    <Content Include="Images\ZOLarium\e48 John Harvey Kellog\0003.jpg" />
+    <Content Include="Images\ZOLarium\e48 John Harvey Kellog\0004.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
@@ -447,6 +469,8 @@
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.js" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.min.js" />
+    <Content Include="Scripts\jquery.lazyload.js" />
+    <Content Include="Scripts\jquery.lazyload.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -460,6 +484,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Hobbyist\Index.cshtml" />
+    <Content Include="Views\Artsenkrant\Vesalius.cshtml" />
+    <Content Include="Views\Artsenkrant\Paré.cshtml" />
+    <Content Include="Views\Artsenkrant\LevendLabo.cshtml" />
+    <Content Include="Views\Artsenkrant\Panopticum.cshtml" />
+    <Content Include="Views\ZOLarium\ConradRontgen.cshtml" />
+    <Content Include="Views\ZOLarium\RudolfVirchow.cshtml" />
+    <Content Include="Views\ZOLarium\KurtSemm.cshtml" />
+    <Content Include="Views\ZOLarium\JohnHarveyKellog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -508,7 +540,6 @@
     <Content Include="Views\Carnaval\FotosessieThuis.cshtml" />
     <Content Include="Views\Carnaval\Carnavalstoet.cshtml" />
     <Content Include="Views\Carnaval\Rusthuis.cshtml" />
-    <Content Include="Views\Carnaval\Carnavalsbal.cshtml" />
     <Content Include="Views\Home\Wijndegustatie.cshtml" />
     <Content Include="Views\Macroscopisch\MelanosisColi.cshtml" />
     <Content Include="Views\Macroscopisch\TwinToTwin.cshtml" />

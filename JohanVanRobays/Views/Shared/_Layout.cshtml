@@ -77,8 +77,13 @@
     <script src="@Url.Content("~/Scripts/jquery-2.1.4.min.js")"></script>
     <script src="@Url.Content("/js/bootstrap.js")"></script>
     <script src="@Url.Content("~/Scripts/jquery.bootstrap-autohidingnavbar.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.lazyload.js")" type="text/javascript"></script>
     <script>
         $("nav.navbar-fixed-top").autoHidingNavbar();
+        $("img.lazy").lazyload({
+            effect: "fadeIn",
+            threshold : 200
+        });
     </script>
 </body>
 </html>
