@@ -29,5 +29,21 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult WilhemHisBach()
+        {
+            return View();
+        }
+        public ActionResult Ammehoela()
+        {
+            return View();
+        }
+        public ActionResult Apollonia()
+        {
+            return View();
+        }
+        public ActionResult TrendyLatijn()
+        {
+            return View();
+        }
     }
 }

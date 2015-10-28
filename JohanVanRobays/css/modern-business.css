@@ -47,8 +47,13 @@ body {
     width:22em;
 }
 .articles {
-    width: 17em;
-    height: 10em;
+    width: 15em;
+    height: 12em;
+}
+
+.pdf-articles-small {
+    width: 15em;
+    height: 20em;
 }
 .sideimage {
     height:37em;
@@ -56,8 +61,28 @@ body {
 }
 
 .squares {
-    height:20em;
-    width:20em;
+    height:12.500em;
+    width:12.500em;
+    display: block;
+    max-width:12em;
+    max-height:12em;
+    width: auto;
+    height: auto;
+}
+
+.squares-medium {
+    height:16.500em;
+    width:16.500em;
+    display: block;
+    max-width:16em;
+    max-height:16em;
+    width: auto;
+    height: auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sidebar {

@@ -169,6 +169,7 @@
     <Compile Include="Controllers\CarnavalController.cs" />
     <Compile Include="Controllers\ConstructionController.cs" />
     <Compile Include="Controllers\CuratorController.cs" />
+    <Compile Include="Controllers\FotografieController.cs" />
     <Compile Include="Controllers\FritzController.cs" />
     <Compile Include="Controllers\HobbyistController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -203,6 +204,9 @@
     <Content Include="Images\Artsenkrant\AK Paré eenhoorn\0002.jpg" />
     <Content Include="Images\Artsenkrant\AK Vesalius hoofd\0001.jpg" />
     <Content Include="Images\Auteur\Andreas cover 3D.jpg" />
+    <Content Include="Images\Carnaval\Carnaval fotosessie thuis.jpg" />
+    <Content Include="Images\Carnaval\Carnaval rusthuizen.jpg" />
+    <Content Include="Images\Carnaval\Carnavalstoet 2015.jpg" />
     <Content Include="Images\Carnaval\Rusthuis\DSC_0022.JPG" />
     <Content Include="Images\Carnaval\Rusthuis\DSC_0023.JPG" />
     <Content Include="Images\Carnaval\Rusthuis\DSC_0026.JPG" />
@@ -241,12 +245,16 @@
     <Content Include="Images\Carnaval\Thuis\Kapper15.jpg" />
     <Content Include="Images\Carnaval\Thuis\trio01.jpg" />
     <Content Include="Images\Carnaval\Thuis\trio03.jpg" />
+    <Content Include="Images\Familie\Hans.jpg" />
+    <Content Include="Images\Familie\Ine.jpg" />
+    <Content Include="Images\Familie\Maaike.jpg" />
+    <Content Include="Images\Familie\Mattias.jpg" />
     <Content Include="Images\Fritz\f1.jpg" />
     <Content Include="Images\Fritz\f2.jpg" />
     <Content Include="Images\Hobbyist\Johan orgelliefhebber.jpg" />
+    <Content Include="Images\HomePage\D2.jpg" />
     <Content Include="Images\Media\cafecorsari.jpg" />
     <Content Include="Images\HomePage\C.jpg" />
-    <Content Include="Images\HomePage\D.jpg" />
     <Content Include="Images\Auteur\Andreas cover  2D.jpg" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
@@ -264,10 +272,6 @@
     <Content Include="Images\Biografie\J013 wieg.JPG" />
     <Content Include="Images\Biografie\philicord.jpg" />
     <Content Include="Images\Biografie\sixty six.jpg" />
-    <Content Include="Images\Carnaval\Carnaval bal 2015.jpg" />
-    <Content Include="Images\Carnaval\Carnaval fotosessie thuis.jpg" />
-    <Content Include="Images\Carnaval\Carnaval rusthuizen.jpg" />
-    <Content Include="Images\Carnaval\Carnavalstoet 2015.jpg" />
     <Content Include="Images\Curator\eierstokcyste met haar en tand.jpg" />
     <Content Include="Images\Curator\foetus 14 weken.jpg" />
     <Content Include="Images\CarouselHeaders\Andreas flap volledig.jpg" />
@@ -446,6 +450,14 @@
     <Content Include="Images\Patholoog\snijtafel.jpg" />
     <Content Include="Images\CarouselHeaders\rariteitenkabinet01.jpg" />
     <Content Include="Images\Auteur\zolarium51.png" />
+    <Content Include="Images\Vesalius\Vesalius.jpg" />
+    <Content Include="Images\ZOLarium\d32 Wilhem His Bach\0001.jpg" />
+    <Content Include="Images\ZOLarium\d47 Ammehoela\0001.jpg" />
+    <Content Include="Images\ZOLarium\d47 Ammehoela\0002.jpg" />
+    <Content Include="Images\ZOLarium\d47 Ammehoela\0003.jpg" />
+    <Content Include="Images\ZOLarium\d50 Apollonia\0001.jpg" />
+    <Content Include="Images\ZOLarium\d50 Apollonia\0002.jpg" />
+    <Content Include="Images\ZOLarium\d55 Trendy Latijn\0001.jpg" />
     <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0001.jpg" />
     <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0002.jpg" />
     <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0003.jpg" />
@@ -465,6 +477,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="js\modern-business.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.js" />
@@ -492,6 +505,11 @@
     <Content Include="Views\ZOLarium\RudolfVirchow.cshtml" />
     <Content Include="Views\ZOLarium\KurtSemm.cshtml" />
     <Content Include="Views\ZOLarium\JohnHarveyKellog.cshtml" />
+    <Content Include="Views\ZOLarium\WilhemHisBach.cshtml" />
+    <Content Include="Views\ZOLarium\Ammehoela.cshtml" />
+    <Content Include="Views\ZOLarium\Apollonia.cshtml" />
+    <Content Include="Views\ZOLarium\TrendyLatijn.cshtml" />
+    <Content Include="Views\Fotografie\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -72,17 +72,24 @@
     </div>
     <!-- /.container -->
 
-    @*<script src="@Url.Content("/js/modern-business.js")"></script>*@
-    @*<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>*@
+    <script src="@Url.Content("/js/modern-business.js")"></script>
     <script src="@Url.Content("~/Scripts/jquery-2.1.4.min.js")"></script>
     <script src="@Url.Content("/js/bootstrap.js")"></script>
     <script src="@Url.Content("~/Scripts/jquery.bootstrap-autohidingnavbar.js")"></script>
     <script src="@Url.Content("~/Scripts/jquery.lazyload.js")" type="text/javascript"></script>
     <script>
+        // Activates the Carousel
+        $('.carousel').carousel({
+            interval: 5000
+        })
+
+        // Activate navbar autohide
         $("nav.navbar-fixed-top").autoHidingNavbar();
+
+        // Activate Lazy Loading for images with "Lazy" class
         $("img.lazy").lazyload({
             effect: "fadeIn",
-            threshold : 200
+            threshold: 200
         });
     </script>
 </body>
