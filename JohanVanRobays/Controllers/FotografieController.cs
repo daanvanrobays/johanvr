@@ -13,5 +13,21 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult ZwartWit()
+        {
+            return View();
+        }
+        public ActionResult Olieverf()
+        {
+            return View();
+        }
+        public ActionResult Airbrush()
+        {
+            return View();
+        }
+        public ActionResult Foetaal()
+        {
+            return View();
+        }
     }
 }

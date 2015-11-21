@@ -13,5 +13,17 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult Groep1544()
+        {
+            return View();
+        }
+        public ActionResult SixtySix()
+        {
+            return View();
+        }
+        public ActionResult Klavecimbel()
+        {
+            return View();
+        }
     }
 }

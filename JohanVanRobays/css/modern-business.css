@@ -51,6 +51,11 @@ body {
     height: 12em;
 }
 
+.articles-medium {
+    width: 16em;
+    height: 13em;
+}
+
 .pdf-articles-small {
     width: 15em;
     height: 20em;
