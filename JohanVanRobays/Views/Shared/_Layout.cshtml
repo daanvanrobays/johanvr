@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Johan Van Robays - @ViewBag.Title</title>
+    <title>@ViewBag.Title - Johan Van Robays</title>
 
     <!-- Bootstrap -->
     <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
@@ -32,17 +32,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li id="biografie">
+                        @Html.ActionLink("Biografie", "Index", "Biografie")
+                    </li>
                     <li id="patholoog">
                         @Html.ActionLink("Patholoog", "index", "Patholoog")
-                    </li>
-                    <li id="auteur">
-                        @Html.ActionLink("Auteur", "Index", "Auteur")
                     </li>
                     <li id="curator">
                         @Html.ActionLink("Curator", "Index", "Curator")
                     </li>
-                    <li id="hobbyist">
-                        @Html.ActionLink("Hobbyist", "Index", "Hobbyist")
+                    <li id="auteur">
+                        @Html.ActionLink("Auteur", "Index", "Auteur")
+                    </li>
+                    <li id="vesalius">
+                        @Html.ActionLink("Vesalius", "Index", "Vesalius")
+                    </li>
+                    <li id="carnaval">
+                        @Html.ActionLink("Prins Carnaval Johan I", "Index", "Carnaval")
+                    </li>
+                    <li id="muzikant">
+                        @Html.ActionLink("Muzikant", "Index", "Muzikant")
                     </li>
                     <li id="paterfamilias">
                         @Html.ActionLink("Pater Familias", "Index", "PaterFamilias")

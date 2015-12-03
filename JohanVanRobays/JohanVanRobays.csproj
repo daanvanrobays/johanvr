@@ -161,14 +161,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Context\ApplicationDataContext.cs" />
-    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AndreasController.cs" />
     <Compile Include="Controllers\ArtsenkrantController.cs" />
     <Compile Include="Controllers\AuteurController.cs" />
     <Compile Include="Controllers\BiografieController.cs" />
     <Compile Include="Controllers\CarnavalController.cs" />
-    <Compile Include="Controllers\ConstructionController.cs" />
     <Compile Include="Controllers\CuratorController.cs" />
     <Compile Include="Controllers\FotografieController.cs" />
     <Compile Include="Controllers\FritzController.cs" />
@@ -179,23 +176,16 @@
     <Compile Include="Controllers\MacroscopischController.cs" />
     <Compile Include="Controllers\MediaController.cs" />
     <Compile Include="Controllers\MuzikantController.cs" />
-    <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PaterFamiliasController.cs" />
     <Compile Include="Controllers\PatholoogController.cs" />
-    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Controllers\StamboomController.cs" />
     <Compile Include="Controllers\VesaliusController.cs" />
     <Compile Include="Controllers\ZOLariumController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\JDC.cs" />
-    <Compile Include="Models\johanvanrobaysContext.cs" />
-    <Compile Include="Models\Mapping\JDCMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Artsenkrant\AK Levend Labo extremo\0001.jpg" />
@@ -644,10 +634,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Context\" />
     <Folder Include="Images\Artsenkrant\PanOpZOL 29\" />
     <Folder Include="Images\Artsenkrant\PanOpZOL 32\" />
     <Folder Include="Images\ZOLarium\d49 hartaderbreuk\" />
     <Folder Include="Images\ZOLarium\d51 virtopsie\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
