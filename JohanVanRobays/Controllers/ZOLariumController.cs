@@ -45,5 +45,13 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult Hartaderbreuk()
+        {
+            return View();
+        }
+        public ActionResult Virtopsie()
+        {
+            return View();
+        }
     }
 }

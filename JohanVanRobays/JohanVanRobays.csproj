@@ -267,8 +267,10 @@
     <Content Include="Images\Familie\0002.jpg" />
     <Content Include="Images\Familie\Daan.jpg" />
     <Content Include="Images\Familie\Gijs.jpg" />
+    <Content Include="Images\Familie\Griet.jpg" />
     <Content Include="Images\Familie\Hans.jpg" />
     <Content Include="Images\Familie\Ine.jpg" />
+    <Content Include="Images\Familie\Lies.jpg" />
     <Content Include="Images\Familie\maaike.jpg" />
     <Content Include="Images\Familie\Mattias.jpg" />
     <Content Include="Images\Fotografie\Airbrush\D type 7_02.jpg" />
@@ -354,7 +356,6 @@
     <Content Include="Images\HomePage\AK Vesaliusreis cover.jpg" />
     <Content Include="Images\HomePage\D2.jpg" />
     <Content Include="Images\HomePage\patholoog.jpg" />
-    <Content Include="Images\Huwelijk\huwelijk-in-plaatselijke-kr.jpg" />
     <Content Include="Images\JDC\Jaguar lover.jpg" />
     <Content Include="Images\JDC\Jaguar MK2 a.jpg" />
     <Content Include="Images\JDC\Jaguar MK2 Schotland.jpg" />
@@ -390,7 +391,6 @@
     <Content Include="Images\CarouselHeaders\De autopsie van het hart_ Enrique Simonet_1890.jpg" />
     <Content Include="Images\Familie\Sanne.jpg" />
     <Content Include="Images\Hobbyist\1544 achterkant2.jpg" />
-    <Content Include="Images\Hobbyist\1544 cover.jpg" />
     <Content Include="Images\Hobbyist\Homo sapiens.jpg" />
     <Content Include="Images\Hobbyist\jvr xjs01.jpg" />
     <Content Include="Images\Hobbyist\scannen0025.jpg" />
@@ -415,13 +415,11 @@
     <Content Include="Images\Huwelijk\trouwfoto an johan1.jpg" />
     <Content Include="Images\Huwelijk\trouwfoto an johan2.jpg" />
     <Content Include="Images\Huwelijk\trouwfoto an johan3.jpg" />
-    <Content Include="Images\JDC\jaguarMKVConverted.png" />
     <Content Include="Images\JDC\jaguarMKVConvert\0001.jpg" />
     <Content Include="Images\JDC\jaguarMKVConvert\0002.jpg" />
     <Content Include="Images\JDC\jaguarMKVConvert\0003.jpg" />
     <Content Include="Images\JDC\jaguarMKVConvert\0004.jpg" />
     <Content Include="Images\JDC\jaguarMKVConvert\0005.jpg" />
-    <Content Include="Images\JDC\KentSussexTour.png" />
     <Content Include="Images\JDC\KentSussexTour\0001.jpg" />
     <Content Include="Images\JDC\KentSussexTour\0002.jpg" />
     <Content Include="Images\JDC\KentSussexTour\0003.jpg" />
@@ -535,8 +533,6 @@
     <Content Include="Images\Patholoog\humopagina2.png" />
     <Content Include="Images\Patholoog\humopagina3.png" />
     <Content Include="Images\Patholoog\humopagina4.png" />
-    <Content Include="Images\JDC\Saumur1995.png" />
-    <Content Include="Images\JDC\Schotland1993.png" />
     <Content Include="Images\Patholoog\pathologen6.jpg" />
     <Content Include="Images\Patholoog\personeel-labofeest.jpg" />
     <Content Include="Images\PDF\Wijndegustatie\0001.jpg" />
@@ -623,7 +619,7 @@
     <Content Include="Views\Artsenkrant\Vesalius.cshtml" />
     <Content Include="Views\Artsenkrant\Paré.cshtml" />
     <Content Include="Views\Artsenkrant\LevendLabo.cshtml" />
-    <Content Include="Views\Artsenkrant\Panopticum.cshtml" />
+    <Content Include="Views\Artsenkrant\Panopticum9.cshtml" />
     <Content Include="Views\ZOLarium\ConradRontgen.cshtml" />
     <Content Include="Views\ZOLarium\RudolfVirchow.cshtml" />
     <Content Include="Views\ZOLarium\KurtSemm.cshtml" />
@@ -641,9 +637,17 @@
     <Content Include="Views\Fotografie\Olieverf.cshtml" />
     <Content Include="Views\Fotografie\Airbrush.cshtml" />
     <Content Include="Views\Fotografie\Foetaal.cshtml" />
+    <Content Include="Views\ZOLarium\Hartaderbreuk.cshtml" />
+    <Content Include="Views\ZOLarium\Virtopsie.cshtml" />
+    <Content Include="Views\Artsenkrant\Panopticum29.cshtml" />
+    <Content Include="Views\Artsenkrant\Panopticum32.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Artsenkrant\PanOpZOL 29\" />
+    <Folder Include="Images\Artsenkrant\PanOpZOL 32\" />
+    <Folder Include="Images\ZOLarium\d49 hartaderbreuk\" />
+    <Folder Include="Images\ZOLarium\d51 virtopsie\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

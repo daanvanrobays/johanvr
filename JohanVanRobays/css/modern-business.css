@@ -23,6 +23,19 @@ body {
     margin-bottom: 30px;
 }
 
+
+.centeredImageContainer {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.centeredImage {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
 .tab-pane {
     margin-top: 15px;
 }

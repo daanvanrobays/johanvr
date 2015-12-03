@@ -25,7 +25,15 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
-        public ActionResult Panopticum()
+        public ActionResult Panopticum9()
+        {
+            return View();
+        }
+        public ActionResult Panopticum29()
+        {
+            return View();
+        }
+        public ActionResult Panopticum32()
         {
             return View();
         }
