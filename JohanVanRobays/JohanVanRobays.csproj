@@ -194,6 +194,10 @@
     <Content Include="Images\Artsenkrant\AK Paré eenhoorn\0001.jpg" />
     <Content Include="Images\Artsenkrant\AK Paré eenhoorn\0002.jpg" />
     <Content Include="Images\Artsenkrant\AK Vesalius hoofd\0001.jpg" />
+    <Content Include="Images\Artsenkrant\PanOpZOL 29\0001.jpg" />
+    <Content Include="Images\Artsenkrant\PanOpZOL 29\0002.jpg" />
+    <Content Include="Images\Artsenkrant\PanOpZOL 32\0001.jpg" />
+    <Content Include="Images\Artsenkrant\PanOpZOL 32\0002.jpg" />
     <Content Include="Images\Auteur\Andreas cover 3D.jpg" />
     <Content Include="Images\Auteur\Boekenbeurs-2014-auteurs.jpg" />
     <Content Include="Images\Biografie\0001.jpg" />
@@ -563,8 +567,13 @@
     <Content Include="Images\ZOLarium\d47 Ammehoela\0001.jpg" />
     <Content Include="Images\ZOLarium\d47 Ammehoela\0002.jpg" />
     <Content Include="Images\ZOLarium\d47 Ammehoela\0003.jpg" />
+    <Content Include="Images\ZOLarium\d49 hartaderbreuk\0001.jpg" />
+    <Content Include="Images\ZOLarium\d49 hartaderbreuk\0002.jpg" />
+    <Content Include="Images\ZOLarium\d49 hartaderbreuk\0003.jpg" />
     <Content Include="Images\ZOLarium\d50 Apollonia\0001.jpg" />
     <Content Include="Images\ZOLarium\d50 Apollonia\0002.jpg" />
+    <Content Include="Images\ZOLarium\d51 virtopsie\0001.jpg" />
+    <Content Include="Images\ZOLarium\d51 virtopsie\0002.jpg" />
     <Content Include="Images\ZOLarium\d55 Trendy Latijn\0001.jpg" />
     <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0001.jpg" />
     <Content Include="Images\ZOLarium\e22 Conrad Rontgen\0002.jpg" />
@@ -635,10 +644,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Context\" />
-    <Folder Include="Images\Artsenkrant\PanOpZOL 29\" />
-    <Folder Include="Images\Artsenkrant\PanOpZOL 32\" />
-    <Folder Include="Images\ZOLarium\d49 hartaderbreuk\" />
-    <Folder Include="Images\ZOLarium\d51 virtopsie\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -655,23 +660,11 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\About\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Portfolio\OneColumn.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Portfolio\SingleItem.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Auteur\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\johanvanrobays.pubxml" />
-    <Content Include="Views\Construction\FourOhFour.cshtml" />
-    <Content Include="Views\Storage.cshtml" />
     <Content Include="Views\PaterFamilias\Index.cshtml" />
-    <Content Include="Views\Construction\Index.cshtml" />
     <Content Include="Views\Stamboom\Index.cshtml" />
     <Content Include="Views\Huwelijk\Index.cshtml" />
     <Content Include="Views\Vesalius\Index.cshtml" />
