@@ -396,13 +396,11 @@
     <Content Include="Images\HomePage\01biografie.jpg" />
     <Content Include="Images\HomePage\02stamboom.jpg" />
     <Content Include="Images\HomePage\04kinderen10.jpg" />
-    <Content Include="Images\HomePage\05patholoog.jpg" />
     <Content Include="Images\HomePage\06curator.jpg" />
     <Content Include="Images\HomePage\09vesalius.jpg" />
     <Content Include="Images\HomePage\10jaguar driver.jpg" />
     <Content Include="Images\HomePage\11prins carnaval.jpg" />
     <Content Include="Images\HomePage\A.jpg" />
-    <Content Include="Images\HomePage\H.jpg" />
     <Content Include="Images\HomePage\B.jpg" />
     <Content Include="Images\HomePage\E.jpg" />
     <Content Include="Images\HomePage\F.jpg" />
