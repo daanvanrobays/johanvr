@@ -51,6 +51,48 @@ body {
     /* change this to change the background color of a colored section */
 }
 
+/*hover-large over image css end*/
+.hovertext-large {
+    position:relative;
+    height:50em;
+    width:38em;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:#18BC9C;
+    border-radius: 6px;
+}
+.hovertext-large img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hovertext-large p,.hovertext-large h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:30px;
+    position:relative
+}
+.hovertext-large p {
+    font-family:'Lato';
+    font-size:16px;
+    line-height:18px;
+    margin:0
+}
+.hovertext-large h2 {
+    font-size:24px;
+    line-height:16px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img.slideimage-large:hover {
+    bottom:-100px;
+    padding-top:0px;
+}
+/*hover-small over image css end*/
+
 /*hover-small over image css end*/
 .hovertext-small {
     position:relative;
