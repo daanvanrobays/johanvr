@@ -13,7 +13,15 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
-        public ActionResult Artikel()
+        public ActionResult HumoArtikel()
+        {
+            return View();
+        }
+        public ActionResult Virtopsie()
+        {
+            return View();
+        }
+        public ActionResult ZolExit()
         {
             return View();
         }

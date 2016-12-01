@@ -21,7 +21,15 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
-        public ActionResult Klavecimbel()
+        public ActionResult BouwKlavecimbel()
+        {
+            return View();
+        }
+        public ActionResult ElFerio()
+        {
+            return View();
+        }
+        public ActionResult RestauratieKlavecimbel()
         {
             return View();
         }

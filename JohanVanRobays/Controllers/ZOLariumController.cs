@@ -53,5 +53,9 @@ namespace JohanVanRobays.Controllers
         {
             return View();
         }
+        public ActionResult HaleBerry()
+        {
+            return View();
+        }
     }
 }

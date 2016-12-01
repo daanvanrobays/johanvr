@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
-    <link href="@Url.Content("/css/modern-business.css")?version=11" rel="stylesheet">
+    <link href="@Url.Content("/css/jvr.css")?version=11" rel="stylesheet">
     <link href="@Url.Content("/css/lightbox.css")" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,21 +63,24 @@
         <!-- /.container -->
     </nav>
 
+    <div id="progress" class="waiting">
+    </div>
+
     @RenderBody()
 
     <div class="container">
         <br/>
         <a href="">Top</a>
         <hr />
-
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Vrulan 2015</p>
+                <div class="col-lg-12 text-center">
+                    <small>
+                        <p>Copyright &copy; Daan Van Robays 2015</p>
+                    </small>
                 </div>
             </div>
         </footer>
-
     </div>
     <!-- /.container -->
 
