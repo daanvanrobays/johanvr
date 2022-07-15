@@ -655,6 +655,8 @@
     <Content Include="Scripts\jquery.lazy.plugins.min.js" />
     <Content Include="Scripts\lightbox-plus-jquery.min.map" />
     <Content Include="Scripts\lightbox.min.map" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Properties\PublishProfiles\johanvanrobays %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\johanvanrobays.be - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
