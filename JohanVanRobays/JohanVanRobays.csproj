@@ -658,6 +658,8 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Properties\PublishProfiles\johanvanrobays %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\JohanVanRobays - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\JohanVanRobays - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\johanvanrobays.be - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\lightbox-plus-jquery.js" />
